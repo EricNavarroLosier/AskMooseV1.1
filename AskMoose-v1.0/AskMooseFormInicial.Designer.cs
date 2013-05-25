@@ -33,6 +33,7 @@
             this.botonPreguntasFormAskMoose = new System.Windows.Forms.Button();
             this.botonPerfilesFormAskMooseInicial = new System.Windows.Forms.Button();
             this.botonSalirFormAskMoose = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // botonLoginFormAskMooseInicial
@@ -75,12 +76,22 @@
             this.botonSalirFormAskMoose.UseVisualStyleBackColor = true;
             this.botonSalirFormAskMoose.Click += new System.EventHandler(this.botonSalirFormAskMoose_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 144);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Soy Eric-Rodri";
+            // 
             // AskMooseFormInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(397, 276);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.botonSalirFormAskMoose);
             this.Controls.Add(this.botonPerfilesFormAskMooseInicial);
             this.Controls.Add(this.botonPreguntasFormAskMoose);
@@ -88,6 +99,7 @@
             this.Name = "AskMooseFormInicial";
             this.Text = "AskMoose";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -97,6 +109,7 @@
         private System.Windows.Forms.Button botonPreguntasFormAskMoose;
         private System.Windows.Forms.Button botonPerfilesFormAskMooseInicial;
         private System.Windows.Forms.Button botonSalirFormAskMoose;
+        private System.Windows.Forms.Label label1;
     }
 }
 
