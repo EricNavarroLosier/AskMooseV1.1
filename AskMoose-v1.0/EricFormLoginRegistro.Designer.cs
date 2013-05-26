@@ -107,6 +107,7 @@
             this.textBoxPasswordFormLoginRegistro.Name = "textBoxPasswordFormLoginRegistro";
             this.textBoxPasswordFormLoginRegistro.Size = new System.Drawing.Size(137, 20);
             this.textBoxPasswordFormLoginRegistro.TabIndex = 7;
+            this.textBoxPasswordFormLoginRegistro.UseSystemPasswordChar = true;
             // 
             // EricFormLoginRegistro
             // 
