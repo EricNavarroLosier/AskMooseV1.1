@@ -61,6 +61,7 @@
             this.Controls.Add(this.botonInicioFormRespuestas);
             this.Name = "CarlosFormRespuestas";
             this.Text = "Respuestas";
+            this.Load += new System.EventHandler(this.CarlosFormRespuestas_Load);
             this.ResumeLayout(false);
 
         }
